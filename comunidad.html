@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Comunidad - Bio Lady</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/style-comunidad.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initical-scale=1.0,maximum-scale=1.0, minimum-scale=1.0"
+    />
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <div class="jumbotron jumbotron-fluid custom-topheader">
+          <div class="container pt-lg-1">
+            <div class="row">
+              <div class="d-flex col-7 col-md-9 brands">
+                <a
+                  class="event_outbound_link"
+                  data-action-detail="https://us.pg.com"
+                  href="https://us.pg.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/Recurso%2012-8.png?v=1655912892392"
+                    class="img-fluid align-middle"
+                    title="HANKA"
+                    alt="HANKA" /></a
+                ><a
+                  class="event_outbound_link"
+                  data-action-detail="https://www.gillettevenus.com"
+                  href="https://www.gillettevenus.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/Recurso%2011-8.png?v=1655912890964"
+                    class="img-fluid align-middle"
+                    title="IDENTIDAD CENTRIC"
+                    alt="IDENTIDAD CENTRIC" /></a
+                ><a
+                  class="event_outbound_link"
+                  data-action-detail="https://www.pantene.com"
+                  href="https://www.pantene.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/Recurso%2010-8.png?v=1655912891310"
+                    class="img-fluid align-middle"
+                    title="BIOLADY"
+                    alt="BIOLADY"
+                /></a>
+              </div>
+
+              <div
+                id="search"
+                class="input-group col-md-3 d-none d-md-flex custom-search"
+              >
+                <input
+                  type="text"
+                  aria-label="input box"
+                  autocomplete="off"
+                  class="form-control border-0 js-search-field"
+                  placeholder="BUSCAR"
+                  id="dt-search-input"
+                />
+                <div class="input-group-append">
+                  <button
+                    aria-label="search"
+                    class="btn btn-outline-secondary border-0 event_search js-search-button"
+                    type="button"
+                  >
+                    <i
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+                        ></path></svg
+                    ></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="social">
+                <a href="https://www.instagram.com/bioladyperu/" target="_blank"
+                  ><img
+                    src="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/Recurso%2012.png?v=1651027993515"
+                    alt=""
+                /></a>
+                <a
+                  href="https://www.facebook.com/Biolady-Per%C3%BA-105073588182572"
+                  target="_blank"
+                >
+                  <img
+                    src="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/Recurso%2011.png?v=1651027828632"
+                    alt=""
+                  />
+                </a>
+
+                <a
+                  href="https://www.youtube.com/channel/UCk9ltLoh5rfiMxqrdlLJhEA"
+                  target="_blank"
+                >
+                  <img
+                    src="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/Recurso%207.png?v=1651025953932"
+                    alt=""
+                  />
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UCk9ltLoh5rfiMxqrdlLJhEA"
+                  target="_blank"
+                >
+                  <img
+                    src="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/Recurso%2010.png?v=1651027743994"
+                    alt=""
+                  />
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UCk9ltLoh5rfiMxqrdlLJhEA"
+                  target="_blank"
+                >
+                  <img
+                    src="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/Recurso%2016.png?v=1651028224158"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- nav class="navbar navbar-expand-sm bg-light navbar-light" -->
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <a id="nav" class="nav1">
+            <div class="contenedor-nav">
+              <div class="logo">
+                <img
+                  src="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/LOGOTIPO%20E%20ISOLOGO2-02.jpg?v=1655748058555"
+                  alt=""
+                />
+              </div>
+              <div class="enlaces" id="enlaces">
+                <a
+                  href="https://jazzy-pointy-hyssop.glitch.me/"
+                  id="enlace-inicio"
+                  class="btn-header"
+                  >Inicio</a
+                >
+
+                <div class="dropdown" id="enlaces1">
+                  <a>
+                    <a
+                      class="btn-header dropdown-toggle"
+                      href="https://jazzy-pointy-hyssop.glitch.me/acerca.html"
+                      data-bs-toggle="dropdown"
+                      >Acerca de BioLady</a
+                    >
+                    <ul class="dropdown-content-1">
+                      <a class="" href="#">Filosofía </a>
+                      <a class="" href="#">Comunidad </a>
+                      <a class="" href="#">Plant-Based Technology </a>
+                    </ul>
+                  </a>
+                </div>
+                <div class="dropdown" id="enlaces2">
+                  <a>
+                    <a
+                      class="btn-header dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                      >Consultoria</a
+                    >
+                    <ul class="dropdown-content-2">
+                      <a class="" href="#">Obstetricia </a>
+                      <a class="" href="#">Psicología </a>
+                    </ul>
+                  </a>
+                </div>
+                <div class="dropdown" id="enlaces3">
+                  <a>
+                    <a
+                      class="btn-header dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                      >Para ti</a
+                    >
+                    <ul class="dropdown-content-3">
+                      <a class="" href="#">Lo Ultimo </a>
+                      <a class="" href="#">Sexualidad </a>
+                      <a class="" href="#">Mestruacion </a>
+                      <a class="" href="#">Nuestro Cuerpo </a>
+                      <a class="" href="#">Actualidad</a>
+                    </ul>
+                  </a>
+                </div>
+                <div class="dropdown" id="enlaces4">
+                  <a>
+                    <a
+                      class="btn-header dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                      >Productos</a
+                    >
+                    <ul class="dropdown-content-4">
+                      <a class="dropdown" href="#">pagina</a>
+                      <a class="dropdown" href="#"> link</a>
+                      <a class="dropdown" href="#">A</a>
+                    </ul>
+                  </a>
+                </div>
+                <div class="dropdown" id="enlaces5">
+                  <a>
+                    <a
+                      class="btn-header dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                      >Revista</a
+                    >
+                    <ul class="dropdown-content-5">
+                      <a class="dropdown" href="#">Lo Ultimo </a>
+                      <a class="dropdown" href="#">Tendencias </a>
+                      <a class="dropdown" href="#">Belleza </a>
+                      <a class="dropdown" href="#">Estilo</a>
+                      <a class="dropdown" href="#">Bienestar</a>
+                    </ul>
+                  </a>
+                </div>
+              </div>
+              <div class="dropdown" id="enlaces6">
+                <ul class="f-top-menu f-top-menu--right">
+                  <li class="f-last-item">
+                    <ul class="f-btn-group">
+                      <li>
+                        <button class="f-btn f-btn-left">Iniciar sesión</button>
+                      </li>
+                      <li>
+                        <button class="f-btn f-btn-right">Regístrate</button>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <li class="btn-nav-chat">
+                <a
+                  href="https://www.facebook.com/messages/t/105073588182572"
+                  class="f-float-chat"
+                  rel="noreferrer noopener"
+                  target="_blanck"
+                  ><div class="f-chat-btn"></div>
+                  <ul class="f-chat-label">
+                    Chat
+                  </ul></a
+                >
+              </li>
+            </div>
+          </a>
+        </nav>
+      </header>
+      <div id="shopify-section-page-comunidad" class="shopify-section">
+        <div
+          class="story-page story-page--without-content"
+          data-section-type="nested-sections"
+        >
+          <div class="shopify-section section-image-with-text-overlay">
+            <div
+              id="section-id-b44db65a-53e2-462e-8f80-6a63fc86b2ed"
+              data-nested-section-type="image-with-text-overlay"
+            >
+              <style data-shopify="">
+                @media (min-width: 768px) {
+                  #section-id-b44db65a-53e2-462e-8f80-6a63fc86b2ed
+                    .overlay-text__title {
+                    font-size: 32.2px;
+                  }
+                }
+                @media (min-width: 1100px) {
+                  #section-id-b44db65a-53e2-462e-8f80-6a63fc86b2ed
+                    .overlay-text__title {
+                    font-size: 46px;
+                  }
+                }
+              </style>
+              <div class="height--adapt image-overlay image-overlay--bg-full">
+                <div
+                  class="rimage-outer-wrapper rimage-background fade-in lazyloaded"
+                  data-bgset="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/1%20(6).png?v=1656483250591"
+                  data-parent-fit="cover"
+                  style="
+                         margin-top: 155px;
+                    background-position: center center;
+                    background-image: url('https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/1%20(6).png?v=1656483250591');
+                  "
+                >
+                  <div
+                    class="rimage-wrapper"
+                    style="padding-top: 20.0%"
+                  ></div>
+                  <noscript>
+                    <div class="rimage-wrapper" style="padding-top: 32.03125%">
+                      <img
+                        src="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/1%20(6).png?v=1656483250591"
+                        alt=""
+                        class="rimage__image"
+                      />
+                    </div>
+                  </noscript>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shopify-section section-columna-texto-intro">
+            <div class="container">
+              <div class="row left-wrap2">
+                <div class="col-xl-5 col-lg-5 col-md-5 blog-grid-wrap">
+                  <h1 class="pagetitleintro h3-style">Nuestra revolución</h1>
+                </div>
+
+                <div class="col-xl-7 col-lg-7 col-md-7 blog-grid-wrap">
+                  <div
+                    class="rte cf texto-intro-content--f6ca5e13-1e66-47b2-b0eb-8fbaefc47dc2 reading-width"
+                  >
+                    <div class="negrita-boldintro">
+                      <span>Bienvenida a la comunidad </span> que día a día
+                      decide transformar su vida y se fortalece viviendo bajo
+                      sus propios términos y esencia.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <style>
+            @media (min-width: 1025px) {
+              .texto-intro-content--f6ca5e13-1e66-47b2-b0eb-8fbaefc47dc2 {
+                width: 70%;
+                text-align: left;
+                margin: 0 auto;
+                font-size: 20px;
+                font-family: "biancosans" !important;
+                color: #E93F72;
+              }
+            }
+          </style>
+
+          <div class="shopify-section section-image-with-text">
+            <div class="fully-spaced-row--medium1">
+              <div class="contenedorecom">
+                <div
+                  class="flexible-layout flexlayout1 flexlayout1--e8b65168-12a2-425f-bbb7-d4512dc7bfd0 valign-middle"
+                >
+                  <div
+                    class="column column1 column--half column--order-push-desktop"
+                  >
+                    <div class="image-overlap">
+                      <div class="image-overlap__image image-overlap__image-1">
+                        <div
+                          class="rimage-outer-wrapper"
+                          style="max-width: 1168px"
+                        >
+                          <div
+                            class="rimage-wrapper cc-fade-in-up cc-animate-init -in cc-animate-complete"
+                            
+                            data-cc-animate="cc-fade-in-up"
+                            data-cc-animate-delay="0.1s"
+                          >
+                            <img
+                              class="rimage__image fade-in lazyautosizes lazyloaded"
+                              data-widths="[180, 220, 300, 360, 460, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                              data-aspectratio="1.168"
+                              data-sizes="auto"
+                              alt=""
+                              data-srcset="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/1%20(5).png?v=1656483152849"
+                              sizes="759.1999999999999px"
+                              srcset="
+                               https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/1%20(5).png?v=1656483152849
+                              "
+                                 style="   padding-bottom: 3.9%; width: 768px; length: 650"
+                            />
+
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="column column2 column--half align-left cc-animate-init -in cc-animate-complete"
+                    data-cc-animate=""
+                  >
+                    <div class="feature-text-paired ftp-content">
+                      <h1 class="majortitle in-content titlecomuheading">
+                        VIVIR LIBRES
+                      </h1>
+
+                      <div class="content-full">
+                        <div class="rte">
+                          <div class="linebottomcomu">
+                            <p>es nuestra revolución.</p>
+                          </div>
+
+                          <div class="negrita-boldwti">
+                            <br />Logramos desprendernos de todas las ataduras
+                            <br />
+                            que nos alejaron de quienes somos. Ahora,<br />
+                            estando cómodas con nosotras mismas,<br /><span
+                              >¡No hay nada que nos detenga!</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <style>
+              @media (min-width: 1025px) {
+                .titlecomuheading {
+                  font-size: 35px;
+                  margin-bottom: -10px !important;
+                }
+                .linebottomcomu p {
+                  font-size: 30px !important;
+                  margin-bottom: 0px !important;
+                  font-family: "biancosans" !important;
+                }
+                .negrita-boldwti {
+                  font-size: 22px;
+                  font-family: "biancosans" !important;
+                  color: #E93F72;
+                }
+                .negrita-boldwti span {
+                  font-size: 25px;
+                  font-family: "biancosans" !important;
+                  font-weight: 600;
+                  
+                }
+              }
+
+              @media (min-width: 768px) and (max-width: 1024px) {
+                .titlecomuheading {
+                  font-size: 30px;
+                  margin-bottom: -9px !important;
+                }
+                .linebottomcomu p {
+                  font-size: 24px !important;
+                  margin-bottom: 0px !important;
+                  font-family: "biancosans" !important;
+                }
+                .negrita-boldwti {
+                  font-size: 15px;
+                  font-family: "biancosans" !important;
+                }
+                .negrita-boldwti span {
+                  font-size: 18px;
+                  font-family: "biancosans" !important;
+                  font-weight: 600;
+                }
+              }
+
+              @media (max-width: 767px) {
+                .titlecomuheading {
+                  font-size: 27px;
+                  margin-bottom: -8px !important;
+                  text-align: center !important;
+                }
+                .linebottomcomu p {
+                  font-size: 25px !important;
+                  margin-bottom: 0px !important;
+                  text-align: center !important;
+                  font-family: "biancosans" !important;
+                }
+                .negrita-boldwti {
+                  font-size: 14px;
+                  text-align: center !important;
+                  font-family: "biancosans" !important;
+                }
+                .negrita-boldwti span {
+                  font-size: 17px;
+                  font-family: "biancosans" !important;
+                  font-weight: 600;
+                }
+              }
+
+              .flexlayout1--e8b65168-12a2-425f-bbb7-d4512dc7bfd0 {
+                background: #ffffff;
+              }
+              .rule_overlay--e8b65168-12a2-425f-bbb7-d4512dc7bfd0 {
+                background-color: #000000;
+              }
+              
+            </style>
+          </div>
+
+          <div class="shopify-section section-rich-text">
+            <div
+              class="article use-alt-bg-richtext2--d03923f3-c1de-4d81-91fe-16fb7ba9996d fully-padded-row--mediumsmall"
+            >
+              <div class="container">
+                <div class="align-center">
+                  <div
+                    class="user-content richtext2-title--d03923f3-c1de-4d81-91fe-16fb7ba9996d"
+                  >
+                    <div class="richtext-title2">
+                      <span>Una</span> mujer <span>sin costuras</span>
+                    </div>
+                    <div class="rich-text2-p">
+                      <p>
+                        Acepta, respeta y ama su cuerpo. Se siente cómoda en su
+                        propia piel y es consciente de su constante
+                        transformación. La busca, la cultiva, la promueve.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <style>
+            .use-alt-bg-richtext2--d03923f3-c1de-4d81-91fe-16fb7ba9996d {
+              background-color: #ef85b2;
+              color: white !important;
+            }
+            .use-alt-bg-richtext2--d03923f3-c1de-4d81-91fe-16fb7ba9996d h1 {
+              color: inherit;
+            }
+
+            @media (min-width: 1025px) {
+              .richtext2-title--d03923f3-c1de-4d81-91fe-16fb7ba9996d {
+                font-size: 54px;
+                color: #ffffff;
+              }
+            }
+
+            @media (max-width: 1024px) {
+              .richtext2-title--d03923f3-c1de-4d81-91fe-16fb7ba9996d {
+                font-size: 40px;
+                color: #ffffff;
+              }
+            }
+
+            .btnaltcolor--d03923f3-c1de-4d81-91fe-16fb7ba9996d {
+              background: #ef85b2 !important;
+              border: 1px solid #ef85b2 !important;
+            }
+
+            .content-rich-text-border {
+              border-bottom: 2px solid #ef85b2;
+            }
+          </style>
+
+          <div
+            id="section-id-662f6760-346f-46b0-abae-5897a5f582e0"
+            data-section-type="gallery"
+          >
+            <style data-shopify="">
+              @media (max-width: 767px) {
+                #section-id-662f6760-346f-46b0-abae-5897a5f582e0
+                  .gallery__item {
+                  height: 220px;
+                }
+              }
+
+              @media (min-width: 1441px) {
+                #section-id-662f6760-346f-46b0-abae-5897a5f582e0
+                  .gallery__item {
+                  height: 313px;
+                    
+                }
+              }
+
+              @media (min-width: 768px) and (max-width: 1440px) {
+                #section-id-662f6760-346f-46b0-abae-5897a5f582e0
+                  .gallery__item {
+                  height: 310px;
+                }
+              }
+
+              .gallery-margin {
+                margin-bottom: 80px;
+              }
+
+              @media only screen and (max-width: 767px) {
+                #section-id-662f6760-346f-46b0-abae-5897a5f582e0
+                  .gallery__item {
+                  margin-bottom: 30px !important;
+                  width: 90%;
+                  margin: 0 auto;
+                }
+              }
+
+              .use-alt-bg-personalizado--662f6760-346f-46b0-abae-5897a5f582e0 {
+                background-color: #ef85b2;
+              }
+            </style>
+            <div
+              class="use-alt-bg-personalizado--662f6760-346f-46b0-abae-5897a5f582e0"
+            >
+              <div
+                class="gallery gallery--grid-2 gallery--with-margins gallery--mobile-carousel slick-slider-overlay-dots gallery--with-vertical-outer-padding"
+                data-grid="2"
+              >
+                <div class="gallery__row1">
+                  <div
+                    class="gallery__item gallery__item-5 image-overlay image-overlay--bg-no_background image-overlay--edge-boxes"
+                  >
+                    <div
+                      class="gallery__image rimage-outer-wrapper rimage-background fade-in lazyloaded"
+                      data-bgset="//cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/2%20chicas_izquierda.webp?v=1652837480065"
+                      data-parent-fit="cover"
+                      style="
+                        background-position: center center;
+                        background-image: url('https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/6.png?v=1655920758941');
+                      "
+                    >
+                      
+                    </div>
+                  </div>
+
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shopify-section section-rich-text">
+            <div
+              class="article use-alt-bg-richtext2--3bf4157f-20cb-4b4c-ab2f-c42fcd4daa6f fully-padded-row--mediumsmall"
+            >
+              <div class="container">
+                <div class="align-center">
+                  <div
+                    class="user-content richtext2-title--3bf4157f-20cb-4b4c-ab2f-c42fcd4daa6f"
+                  >
+                    <div class="negrita-bold">
+                      <span><i>Transformando</i></span> vidas
+                    </div>
+                    <div class="rich-text-p transvidas">
+                      <p>TESTIMONIOS</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <style>
+            .use-alt-bg-richtext2--3bf4157f-20cb-4b4c-ab2f-c42fcd4daa6f {
+              background-color: #ef85b2;
+              color: white !important;
+            }
+            .use-alt-bg-richtext2--3bf4157f-20cb-4b4c-ab2f-c42fcd4daa6f h1 {
+              color: inherit;
+            }
+
+            @media (min-width: 1025px) {
+              .richtext2-title--3bf4157f-20cb-4b4c-ab2f-c42fcd4daa6f {
+                font-size: 65px;
+                color: #ffffff;
+              }
+            }
+
+            @media (max-width: 1024px) {
+              .richtext2-title--3bf4157f-20cb-4b4c-ab2f-c42fcd4daa6f {
+                font-size: 40px;
+                color: #ffffff;
+              }
+            }
+
+            .btnaltcolor--3bf4157f-20cb-4b4c-ab2f-c42fcd4daa6f {
+              background: #ef85b2 !important;
+              border: 1px solid #ef85b2 !important;
+            }
+
+            .content-rich-text-border {
+              border-bottom: 2px solid #ef85b2;
+            }
+          </style>
+
+          <div
+            id="section-id-00df4810-591d-49ea-9a80-05b952c86c7f"
+            data-section-type="gallery"
+          >
+            <style data-shopify="">
+              @media (max-width: 767px) {
+                #section-id-00df4810-591d-49ea-9a80-05b952c86c7f
+                  .gallery__item {
+                  height: 260px;
+                }
+              }
+
+              @media (min-width: 1441px) {
+                #section-id-00df4810-591d-49ea-9a80-05b952c86c7f
+                  .gallery__item {
+                  height: 500px;
+                }
+              }
+
+              @media (min-width: 768px) and (max-width: 1440px) {
+                #section-id-00df4810-591d-49ea-9a80-05b952c86c7f
+                  .gallery__item {
+                  height: 350px;
+                }
+              }
+
+              .gallery-margin {
+                margin-bottom: 80px;
+              }
+
+              @media only screen and (max-width: 767px) {
+                #section-id-00df4810-591d-49ea-9a80-05b952c86c7f
+                  .gallery__item {
+                  margin-bottom: 30px !important;
+                  width: 90%;
+                  margin: 0 auto;
+                }
+              }
+
+              .use-alt-bg-personalizado--00df4810-591d-49ea-9a80-05b952c86c7f {
+                background-color: #ef85b2;
+              }
+            </style>
+            <div
+              class="use-alt-bg-personalizado--00df4810-591d-49ea-9a80-05b952c86c7f"
+            >
+              <div
+                class="gallery gallery--grid-2 gallery--with-margins gallery--mobile-carousel slick-slider-overlay-dots gallery--with-vertical-outer-padding"
+                data-grid="2"
+              >
+                <div class="gallery__row">
+                  <div
+                    class="gallery__item gallery__item-7 image-overlay image-overlay--bg-no_background image-overlay--edge-boxes"
+                  >
+                    <div
+                      class="gallery__image rimage-outer-wrapper rimage-background fade-in lazyloaded"
+                      data-bgset="//cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a_180x.png?v=1641404213 180w 123h,
+  //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a_360x.png?v=1641404213 360w 246h,
+  //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a_540x.png?v=1641404213 540w 368h,
+  //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a_720x.png?v=1641404213 720w 491h,
+  //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a_900x.png?v=1641404213 900w 614h,
+  
+  //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a.png?v=1641404213 1000w 682h"
+                      data-parent-fit="cover"
+                      style="
+                        background-position: center center;
+                        background-image: url('https://cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a_900x.png?v=1641404213');
+                       max-width:100%;
+  max-height:100%;
+                             "
+                    >
+                      
+                      <picture class="" style="display: none"
+                        ><source
+                          data-srcset="//cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a_180x.png?v=1641404213 180w 123h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a_360x.png?v=1641404213 360w 246h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a_540x.png?v=1641404213 540w 368h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a_720x.png?v=1641404213 720w 491h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a_900x.png?v=1641404213 900w 614h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a.png?v=1641404213 1000w 682h"
+                          sizes="715px"
+                          srcset="//cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a_180x.png?v=1641404213 180w 123h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a_360x.png?v=1641404213 360w 246h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a_540x.png?v=1641404213 540w 368h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a_720x.png?v=1641404213 720w 491h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a_900x.png?v=1641404213 900w 614h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-2_f34f7895-88f1-4c9b-898e-ed6c4456740a.png?v=1641404213 1000w 682h" />
+                        <img
+                          alt=""
+                          class="lazyautosizes lazyloaded"
+                          data-sizes="auto"
+                          data-parent-fit="cover"
+                          sizes="715px"
+                      /></picture>
+                    </div>
+                  </div>
+
+                  <div
+                    class="gallery__item gallery__item-7 image-overlay image-overlay--bg-no_background image-overlay--edge-boxes"
+                  >
+                    <div
+                      class="gallery__image rimage-outer-wrapper rimage-background fade-in lazyloaded"
+                      data-bgset="//cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_180x.png?v=1640711623 180w 123h,
+  //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_360x.png?v=1640711623 360w 247h,
+  //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_540x.png?v=1640711623 540w 370h,
+  //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_720x.png?v=1640711623 720w 494h,
+  //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_900x.png?v=1640711623 900w 617h,
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1.png?v=1640711623 1000w 686h"
+                      data-parent-fit="cover"
+                      style="
+                        background-position: center center;
+                        background-image: url('https://cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_900x.png?v=1640711623');
+                      "
+                    >
+                      <noscript>
+                        <div class="rimage-wrapper" style="padding-top: 68.6%">
+                          <img
+                            src="//cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_1024x1024.png?v=1640711623"
+                            alt=""
+                            class="rimage__image"
+                          />
+                        </div>
+                      </noscript>
+                      <picture class="" style="display: none"
+                        ><source
+                          data-srcset="//cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_180x.png?v=1640711623 180w 123h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_360x.png?v=1640711623 360w 247h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_540x.png?v=1640711623 540w 370h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_720x.png?v=1640711623 720w 494h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_900x.png?v=1640711623 900w 617h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1.png?v=1640711623 1000w 686h"
+                          sizes="715px"
+                          srcset="//cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_180x.png?v=1640711623 180w 123h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_360x.png?v=1640711623 360w 247h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_540x.png?v=1640711623 540w 370h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_720x.png?v=1640711623 720w 494h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1_900x.png?v=1640711623 900w 617h, //cdn.shopify.com/s/files/1/1506/0122/files/Transformando-vidas-1.png?v=1640711623 1000w 686h" />
+                        <img
+                          alt=""
+                          class="lazyautosizes lazyloaded"
+                          data-sizes="auto"
+                          data-parent-fit="cover"
+                          sizes="715px"
+                      /></picture>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">our services</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">affiliate program</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">returns</a></li>
+                <li><a href="#">order status</a></li>
+                <li><a href="#">payment options</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>online shop</h4>
+              <ul>
+                <li><a href="#">watch</a></li>
+                <li><a href="#">bag</a></li>
+                <li><a href="#">shoes</a></li>
+                <li><a href="#">dress</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="https://www.instagram.com/bioladyperu/" target="_blank"
+                  ><img
+                    src="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/Recurso%2012.png?v=1651027993515"
+                    alt=""
+                /></a>
+                <a
+                  href="https://www.facebook.com/Biolady-Per%C3%BA-105073588182572"
+                  target="_blank"
+                >
+                  <img
+                    src="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/Recurso%2011.png?v=1651027828632"
+                    alt=""
+                  />
+                </a>
+
+                <a
+                  href="https://www.youtube.com/channel/UCk9ltLoh5rfiMxqrdlLJhEA"
+                  target="_blank"
+                >
+                  <img
+                    src="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/Recurso%207.png?v=1651025953932"
+                    alt=""
+                  />
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UCk9ltLoh5rfiMxqrdlLJhEA"
+                  target="_blank"
+                >
+                  <img
+                    src="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/Recurso%2010.png?v=1651027743994"
+                    alt=""
+                  />
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UCk9ltLoh5rfiMxqrdlLJhEA"
+                  target="_blank"
+                >
+                  <img
+                    src="https://cdn.glitch.global/9d555dcc-c02e-433a-a924-f6be460fc27a/Recurso%2016.png?v=1651028224158"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>   
+  </body>
+</html>
